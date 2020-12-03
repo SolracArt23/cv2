@@ -10,7 +10,7 @@ def camera(R,b,label):
 
     while True:
         rest,frame=cam.read()
-    #rano de busqueda de colores
+    #rango de busqueda de colores
         rangomax=np.array(R)
         rangomin=np.array(b)
 
